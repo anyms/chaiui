@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Chai">
+        <attr name="chai_background" format="integer"/>
+        <attr name="chai_padding" format="dimension"/>
+        <attr name="chai_paddingBottom" format="dimension"/>
+        <attr name="chai_paddingTop" format="dimension"/>
+        <attr name="chai_paddingStart" format="dimension"/>
+        <attr name="chai_paddingEnd" format="dimension"/>
+        <attr name="chai_radius" format="dimension"/>
+        <attr name="chai_borderSize" format="dimension"/>
+        <attr name="chai_borderColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ChaiButton" parent="Chai">
+        <attr name="chai_background"/>
+        <attr name="chai_padding"/>
+        <attr name="chai_paddingBottom"/>
+        <attr name="chai_paddingTop"/>
+        <attr name="chai_paddingStart"/>
+        <attr name="chai_paddingEnd"/>
+        <attr name="chai_radius"/>
+        <attr name="chai_borderSize"/>
+        <attr name="chai_borderColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="ChaiIcon" parent="Chai">
+        <attr name="chai_background"/>
+        <attr name="chai_padding"/>
+        <attr name="chai_paddingBottom"/>
+        <attr name="chai_paddingTop"/>
+        <attr name="chai_paddingStart"/>
+        <attr name="chai_paddingEnd"/>
+        <attr name="chai_radius"/>
+        <attr name="chai_borderSize"/>
+        <attr name="chai_borderColor"/>
+
+        <attr name="chai_icon_color" format="color"/>
+    </declare-styleable>
+
+</resources>
