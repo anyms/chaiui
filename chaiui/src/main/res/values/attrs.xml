@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="Chai">
-        <attr name="chai_background" format="integer"/>
+        <attr name="chai_background" format="color"/>
         <attr name="chai_padding" format="dimension"/>
         <attr name="chai_paddingBottom" format="dimension"/>
         <attr name="chai_paddingTop" format="dimension"/>
