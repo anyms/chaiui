@@ -6,7 +6,6 @@ import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatButton
-import androidx.core.content.ContextCompat
 
 class ChaiButton: AppCompatButton {
 
@@ -26,7 +25,7 @@ class ChaiButton: AppCompatButton {
 
 
         val bgColor = attrs.getInteger(R.styleable.ChaiButton_chai_background, Color.TRANSPARENT)
-        setBackgroundResource(R.drawable.chai_rounded_corners)
+        setBackgroundResource(R.drawable.chai_button_rounded_corners)
         val drawable = background as GradientDrawable
         drawable.setColor(bgColor)
 

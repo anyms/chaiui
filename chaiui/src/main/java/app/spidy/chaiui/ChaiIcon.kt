@@ -22,7 +22,7 @@ class ChaiIcon : AppCompatImageView {
 
     private fun setAttrs(attrs: TypedArray) {
         val bgColor = attrs.getInteger(R.styleable.ChaiIcon_chai_background, Color.TRANSPARENT)
-        setBackgroundResource(R.drawable.chai_rounded_corners)
+        setBackgroundResource(R.drawable.chai_icon_rounded_corners)
         val drawable = background as GradientDrawable
         drawable.setColor(bgColor)
 
